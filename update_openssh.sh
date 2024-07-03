@@ -20,7 +20,6 @@ sudo systemctl restart ssh
 # Verify the installed version
 ssh -V
 
-# Clean up
-cd ..
-rm -rf openssh-9.8p1
-rm openssh-9.8p1.tar.gz
+# Clean up: Remove the repository directory
+cd ../..
+rm -rf update-openSSH
